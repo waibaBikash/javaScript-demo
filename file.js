@@ -15,3 +15,11 @@ function Person(){
 
 const person1 = new Person();
 const person2 = new Person();
+
+// object destructuring 
+const object= {
+  finalName:"Bill",
+  lastName:"Gate"
+}
+let { finalName: fName, lastName:lName} = object;
+console.log(fName);
