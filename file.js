@@ -32,3 +32,14 @@ const person = {
   lastName
 }
 console.log(person);
+
+// javaScript class
+
+ class Person{
+  constructor(name,age){
+    this.name = name;
+    this.age = age;
+  }
+ }
+ const person4 = new Person("Bill Gate", 65);
+ console.log(person4);
