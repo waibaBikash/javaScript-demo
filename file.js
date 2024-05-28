@@ -36,10 +36,15 @@ console.log(person);
 // javaScript class
 
  class Person{
-  constructor(name,age){
+  constructor(name,age){   // constructor function is here mandatory 
     this.name = name;
     this.age = age;
   }
+  // calss method
+  greet(){
+    return "hello " + this.name;
+  }
  }
  const person4 = new Person("Bill Gate", 65);
- console.log(person4);
+ console.log(person4.greet());
+
