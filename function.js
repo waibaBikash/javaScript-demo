@@ -13,3 +13,14 @@ function add(num1,num2,myCallback){
 }
 
 add(50,20,display);
+
+// recursion function
+
+function conudDown(num){
+  console.log(num);
+  num--;
+  if(num>=0){
+    conudDown(num);
+  }
+}
+conudDown(10);
