@@ -34,3 +34,11 @@ const person={
 for(let val in person){
   console.log(val);
 }
+// javaScript object methods
+const object={
+  firstName:"Jhon",
+  lastName:"Doe",
+  greet: function greet(){
+    console.log("hello world!");
+  }
+}
