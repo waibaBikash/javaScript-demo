@@ -23,3 +23,12 @@ const object= {
 }
 let { finalName: fName, lastName:lName} = object;
 console.log(fName);
+// object literal syntax
+const firstName = "Bill";
+const lastName = "Bill";
+
+const person = {
+  firstName,
+  lastName
+}
+console.log(person);
