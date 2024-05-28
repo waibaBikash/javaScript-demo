@@ -24,3 +24,13 @@ function conudDown(num){
   }
 }
 conudDown(10);
+
+// object in javaScript
+const person={
+  firstName:"Elon",
+  lastName:"Musk",
+  age:40
+}
+for(let val in person){
+  console.log(val);
+}
