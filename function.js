@@ -42,3 +42,14 @@ const object={
     console.log("hello world!");
   }
 }
+object.greet();
+
+// this keyword
+let person1={
+  firstName:"Elon",
+  lastName:"Musk",
+getFullName:function(){
+  return this.firstName + "" + this.lastName;
+}
+}
+person.getFullName();
