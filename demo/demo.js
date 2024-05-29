@@ -3,3 +3,6 @@
 // alert(tweetUnder140);
 
 // even handler 
+function display(){
+  console.log("I am clicked!");
+}
