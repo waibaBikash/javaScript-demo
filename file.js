@@ -47,4 +47,4 @@ console.log(person);
  }
  const person4 = new Person("Bill Gate", 65);
  console.log(person4.greet());
-
+// getter and setter method in javascript
